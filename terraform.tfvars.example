@@ -1,0 +1,16 @@
+######################################################################################
+#Rename this file to terraform.tfvars and fill in the values for the variables below.#
+######################################################################################
+
+
+pm_api_url           = "https://localhost:8006/api2/json"
+pm_api_token_secret  = "TOKEN"
+pm_api_token_id      = "terraform@pve!terraform_token"
+pm_tls_insecure      = true
+target_node          = "pve"
+# Replace with the actual template ID of ubuntu-cloud
+template_name_ubuntu = "ubuntu-template"
+# Local public key, example: /home/EXAMPLE/.ssh/ansibleKeys.pub
+public_ssh_key       = ""
+# Local private key, example: /home/EXAMPLE/.ssh/ansibleKeys
+private_ssh_key      = ""
