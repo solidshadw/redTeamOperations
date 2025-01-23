@@ -29,7 +29,7 @@ mtls
 
 To create a implant, use the generate command:
 ```bash
-generate --mtls --ip <SLIVER_IP> --os <Target_OS>
+generate -m <SLIVER_IP> --os <Target_OS>
 ```
     --mtls: Specifies mutual TLS encryption.
     --ip: The IP address of your Sliver server.
